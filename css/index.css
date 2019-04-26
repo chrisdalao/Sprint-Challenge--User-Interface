@@ -67,8 +67,11 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
+    background-color: white;
+    border-left: 100px solid white;
+    border-right: 100px solid white;
 }
 
 .top-content {
@@ -104,7 +107,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -141,6 +143,115 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: #C7C7C7;
     text-decoration: none;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    padding-top: 26px;
+    font-size: 0.8em;
+}
+
+header nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-right: 40px;
+}
+
+.header{
+    padding-bottom: 20px;
+}
+
+.box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6{
+    background: forestgreen;
+}
+
+.box7{
+    background: darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background: indigo;
+}
+
+.box10{
+    background: dodgerblue;
+}
+
+html{
+    background-color: black;
+}
+
+.about-section{
+    padding: 0 0 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    padding-top: 32px;
+}
+
+.content{
+    width: 370px;
+    margin-left: 15px;
+    margin-right:15px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.content p{
+    padding-bottom: 20px;
+}
+
+.content img{
+    padding-bottom: 14px;
+}
+
+.content button{
+    color: black;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 130px;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.work-together{
+    margin: 20px;
+    padding-bottom: 20px;
 }
