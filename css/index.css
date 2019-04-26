@@ -150,8 +150,8 @@ footer nav a {
 header nav a{
     text-decoration: none;
     color: black;
-    padding-top: 22px;
-    font-size: 0.9em;
+    padding-top: 26px;
+    font-size: 0.8em;
 }
 
 header nav{
@@ -210,3 +210,36 @@ html{
     background-color: black;
 }
 
+.about-section{
+    padding: 0 0 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    padding-top: 32px;
+}
+
+.content{
+    width: 370px;
+    margin-right:60px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.content p{
+    padding-bottom: 20px;
+}
+
+.content img{
+    padding-bottom: 14px;
+}
+
+.content button{
+    color: black;
+    margin-bottom: 20px;
+
+}
